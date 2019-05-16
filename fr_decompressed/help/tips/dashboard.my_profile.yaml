@@ -6,7 +6,7 @@ contact_information:
 username:
   title: Nom d'utilisateur
   content: >
-    Seuls les Agents ayant le statut administrateur peuvent changer un nom d'utilisateur. Si vous êtes un Agent disposant de privilèges d'administrateur, vous pouvez le faire en sélectionnant un Agent à modifier dans la table de <span class="doc-desc-title"> Membres du personnel</span>.
+    Seuls les agents ayant le statut d'administrateur peuvent changer un nom d'utilisateur. Si vous êtes un agent disposant de privilèges d'administrateur, vous pouvez le faire depuis la liste des agents disponible dans le <span class="doc-desc-title">panneau d'administration</span>.
   links:
     - 
       title: Modifier un nom d'utilisateur en tant qu'administrateur
