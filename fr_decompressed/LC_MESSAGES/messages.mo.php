@@ -317,7 +317,7 @@ PO-Revision-Date: 2019-02-06 21:30
   'Agent' => 'Agent',
   'Agent Assigned' => 'Agent assigné',
   'Agent Dashboard' => 'Agent de Tableau de bord',
-  'Agent Directory' => 'Répertoire des agents',
+  'Agent Directory' => 'Annuaire des agents',
   'Agent Excessive Logins' => 'Politique d\'échec d\'authentification',
   'Agent Identity Masking' => 'Masquage de l\'identité de l\'agent',
   'Agent Login' => 'Connexion de l\'agent',
