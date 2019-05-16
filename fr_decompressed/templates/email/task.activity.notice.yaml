@@ -1,0 +1,19 @@
+---
+notes: |
+  Avis envoyé aux collaborateurs relatif à l'activité de la tâche. Par exemple : message ou réponse.
+subject: |
+  Re: %{task.title} [#%{task.number}]
+body: |
+  <h3><strong>Cher %{recipient.name.first},</strong></h3>
+  <div>
+  <em>%{poster.name}</em> vient juste d'ajouter un message à une tâche auquelle vous participez.
+  </div>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;">
+  <em>Vous recevez ce courriel parce que vous êtes collaborateur sur cette tâche
+  #%{task.number}. Pour participer, répondez simplement à ce courriel.</em>
+  </div>

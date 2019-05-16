@@ -1,0 +1,35 @@
+---
+- 
+  type: ticket-status
+  name: État du ticket
+  name_plural: État des tickets
+  sort_mode: SortCol
+  masks: 13
+  notes: |
+    État des tickets
+  properties:
+    title: Propriétés de l'état des tickets
+    instructions: Propriétés qui peuvent être définies sur l'état d'un ticket.
+    flags: 0
+    fields:
+      - 
+        type: state
+        name: state
+        label: État 
+        sort: 1
+        flags: 487665
+        configuration:
+          prompt: État d'un ticket
+      - 
+        type: memo
+        name: description
+        label: Description
+        sort: 3
+        flags: 471073
+        configuration:
+          rows: 2
+          cols: 40
+          html: false
+          length: 100
+  configuration:
+    handler: TicketStatusList

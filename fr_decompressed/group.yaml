@@ -1,0 +1,34 @@
+---
+- 
+  id: 1
+  role_id: 1
+  flags: 1
+  name: Dresseurs de Lion
+  notes: |
+    Admin du système. Ces utilisateurs (au départ) ont un contrôle total de tous les départements auxquels ils ont accès.
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  id: 2
+  role_id: 2
+  flags: 1
+  name: Conducteurs d'éléphant
+  notes: |
+    Super utilisateurs (root)
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  id: 3
+  role_id: 2
+  flags: 1
+  name: Dompteurs de puce
+  notes: |
+    Membres du personnel
+  depts:
+    - 1
+    - 2
+    - 3

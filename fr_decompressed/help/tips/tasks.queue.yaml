@@ -1,0 +1,9 @@
+---
+advanced:
+  title: Avancé
+  content: >
+    Affiner vos paramètres de recherche. Une fois que vous avez sélectionné vos critères de recherche avancée et lancé la recherche, vous pourrez <span class="doc-desc-title">exporter</span> les données au bas de la page.
+export:
+  title: Exporter
+  content: >
+    Exporter vos données visibles vers un fichier CSV. Les fichiers CSV peuvent être ouvert avec n'importe quel tableur (Microsoft Excel, Apple Pages, OpenOffice, etc..).

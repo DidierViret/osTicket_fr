@@ -1,0 +1,25 @@
+---
+test_outgoing_email:
+  title: Tester l'envoi de courriels
+  content: >
+    L'envoi du courriel dépend des paramètres de votre serveur (php.ini) et/ou de la configuration SMTP.
+  links:
+    - 
+      title: Sélectionnez un courriel pour configurer les paramètres SMTP (sortant)
+      href: /scp/emails.php
+from:
+  title: De
+  0: >
+
+to:
+  title: À
+  0: >
+
+subject:
+  title: Sujet
+  0: >
+
+message:
+  title: Message
+  0: >
+

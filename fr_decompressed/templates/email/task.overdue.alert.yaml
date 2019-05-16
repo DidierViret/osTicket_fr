@@ -1,0 +1,23 @@
+---
+notes: |
+  Envoyé aux agents quand une tâche passe en retard par le système. Cette date est basée sur la date d'échéance.
+subject: |
+  Alerte : Tâches obsolètes
+body: |
+  <h3><strong>Bonjour %{recipient.name}</strong>,</h3> 
+  Une tâche, <a href="%{task.staff_link}">#%{task.number}</a> est très en retard.
+  <br>
+  <br>
+  Nous devons travailler dur pour gharantir que toutes les tâches soient traitées dans les délais.
+  <br>
+  <br>
+  Signé,<br>
+  %{task.dept.manager.name}
+  <hr>
+  <div>Pour visulaiser ou réagit à la tâche, <a
+  href="%{task.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >connectez-vous</span></a> tau service de support. Vous recevez cet avis parceque la tâche vous est attribuée, à vous, à un service ou une équipe dont vous êtes membre.</div>
+  <em style="font-size: small">Cordialement <span style="font-size: smaller"
+  >(même si votre patience à des limites)</span> le support client</em><br>
+  <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc" height="19"
+  alt="Powered by osTicket" width="126" style="width: 126px;">

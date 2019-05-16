@@ -1,0 +1,34 @@
+---
+notes: |
+  Envoyé à un agent quand une nouvelle tâche est créée par le système.
+subject: |
+  Alerte de nouvelle tâche
+body: |
+  <h2>Bonjour %{recipient.name},</h2>
+  Nouvelle tâche <a href="%{task.staff_link}">#%{task.number}</a> créée
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>Service</strong>:
+  </td>
+  <td>
+  %{task.dept.name}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{task.description}
+  <br>
+  <br>
+  <hr>
+  <div>Pour voir ou repondre au ticket merci de vous <a
+  href="%{task.staff_link}">connecter</a> sur le support en ligne.</div>
+  <em style="font-size: small">Amicalement, le support client System</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+  style="width: 126px; " alt="Powered By osTicket"
+  src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>

@@ -1,0 +1,45 @@
+---
+ticket_activity:
+  title: Activité du ticket
+  content: >
+    Sélectionnez une plage de dates afin que le graphique et le tableau ci-dessous (cf. <span class="doc-desc-title">Statistiques</span>) affichent les données correspondant à ces dates. Le graphique ci-dessous représente une vue de l'ensemble des données du système (p. ex., les tickets créés). Toutefois, vous pouvez vous référer au tableau <span class="doc-desc-title">Statistiques</span> plus bas pour consulter les données d'un domaine plus précis (p. ex., par service, par sujet ou par agent). Vous pouvez aussi exporter toutes les données actuellement affichées dans le tableau <span class="doc-desc-title">Statistiques</span>.
+report_timeframe:
+  title: Période de rapport
+  content: >
+    Choisissez une date de début pour l'échantillon de données désiré en utilisant le sélecteur de dates. Puis, choisissez la durée de la période pour définir la date de fin de votre échantillon de données.
+statistics:
+  title: Statistiques
+  content: >
+    Sélectionnez le sujet qui vous intéresse en cliquant sur l'onglet approprié afin d'afficher l’échantillon spécifique de données. Dans le tableau, les cercles représentent la taille des données nominales. Par conséquent, plus le nombre est grand dans une cellule particulière, plus le cercle adjacent est grand.
+opened:
+  title: Ouverts
+  content: >
+    Tickets initialement ouverts et associés au service ou au sujet, ou le nombre de tickets qu'un agent a ouvert au nom d'un utilisateur.
+assigned:
+  title: Assignés
+  content: >
+    Tickets qui ont été attribués à un agent ou à une équipe. Le compteur indique les tickets qui ont été attribués manuellement à des agents ou des équipes, les tickets auto-attribués et les tickets attribués automatiquement par une règle du système.
+overdue:
+  title: En retard
+  content: >
+    Tickets marqués "en retard" par le système. Ces tickets ne respectent pas le SLA qui leur est attribué, ils sont toujours ouverts alors que leur date d'échéance est dépassée.
+closed:
+  title: Fermés
+  content: >
+    Le nombre de tickets qui sont actuellement fermés.
+reopened:
+  title: Ré-ouverts
+  content: >
+    Le nombre total de fois où un ticket a été ré-ouvert. Les tickets sont considérés comme ré-ouverts lorsque leur état passe de "fermé" à "ouvert".
+deleted:
+  title: Supprimés
+  content: >
+    Le nombre de tickets qui ont été effacés.
+service_time:
+  title: Durée de traitement
+  content: >
+    Se réfère au temps passé entre l'ouverture et la fermeture d'un ticket. La colonne "Durée de traitement" mesure la durée moyenne de traitement d'un ticket, en heures.
+response_time:
+  title: Temps de réponse
+  content: >
+    Temps de réponse moyen d'un agent lors des échanges au sujet d'un ticket.
