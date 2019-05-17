@@ -2,7 +2,7 @@
 custom_lists:
   title: Listes personnalisées
   content: >
-    Vos <span class="doc-desc-title">listes personnalisées</span> vous permettront de créer des listes déroulantes avec des options prédéfinies dans lesquelles un Client peut choisir dans vos <span class="doc-desc-title">Formulaires personnalisés</span>. Si vous souhaitez utiliser cette <span class="doc-desc-title">liste personnalisée</span> comme une <span class="doc-desc-title">cible</span> dans un <span class="doc-desc-title">Filtre de billet</span>, n'oubliez pas d'ajouter cette liste à votre formulaire de <span class="doc-desc-title">Détails du billet</span>.
+    Les <span class="doc-desc-title">listes personnalisées</span> vous permettent de créer des listes déroulantes avec des options prédéfinies, à insérer dans vos <span class="doc-desc-title">formulaires personnalisés</span>. Si vous souhaitez utiliser cette <span class="doc-desc-title">liste personnalisée</span> comme critère dans un <span class="doc-desc-title">filtre de ticket</span>, n'oubliez pas d'ajouter cette liste au formulaire de <span class="doc-desc-title">détails du ticket</span>.
 name:
   title: Nom
   0: >
@@ -12,7 +12,7 @@ plural_name:
   0: >
 
 sort_order:
-  title: Ordre de tri
+  title: Ordre de tri des options
   0: >
 
 list_s_initial_items:

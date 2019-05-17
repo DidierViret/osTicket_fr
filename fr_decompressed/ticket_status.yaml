@@ -1,14 +1,14 @@
 ---
 - 
   id: 1
-  name: Ouverts
+  name: Ouvert
   state: open
   mode: 3
   sort: 1
   flags: 0
   properties:
     description: >
-      Tickets ouverts.
+      Tickets ouverts
 - 
   id: 2
   name: Résolu
@@ -32,7 +32,7 @@
     allowreopen: true
     reopenstatus: 0
     description: >
-      Tickets fermés. Les tickets seront toujours accessibles sur les panneaux des clients et du personnel.
+      Tickets fermés. Les tickets seront toujours accessibles par les utilisateurs et les agents.
 - 
   id: 4
   name: Archivé
@@ -42,7 +42,7 @@
   flags: 0
   properties:
     description: >
-      Tickets accessibles uniquement par les administrateurs mais plus dans les listes de ticket.
+      Tickets accessibles uniquement par les administrateurs mais plus dans les listes de tickets.
 - 
   id: 5
   name: Supprimé
@@ -52,4 +52,4 @@
   flags: 0
   properties:
     description: >
-      Tickets en attente de suppression. Non accessible depuis les listes de Tickets.
+      Tickets en attente de suppression. Non accessibles depuis les listes de tickets.

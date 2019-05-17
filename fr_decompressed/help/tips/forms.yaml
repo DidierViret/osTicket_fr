@@ -2,11 +2,11 @@
 form_title:
   title: Titre de formulaire
   content: >
-    Ce texte de titre est affiché dans une zone grise dessus des champs de formulaire
+    Ce texte de titre est affiché dans une zone grise au-dessus des champs de formulaire
 form_instructions:
-  title: Formulaire d'Instructions
+  title: Instructions de formulaire
   content: >
-    Vous pouvez ajouter des instructions supplémentaires qui aideront à guider l'utilisateur dans les champs de formulaire et éventuellement mettre en évidence des données requises.
+    Vous pouvez ajouter des instructions supplémentaires qui guideront l'utilisateur pour remplir les champs de formulaire et éventuellement lui indiquer quelles informations sont nécessaires.
 field_sort:
   title: Position d'affichage de champ
   content: >
