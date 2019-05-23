@@ -1255,7 +1255,7 @@ PO-Revision-Date: 2019-02-06 21:30
   'MySQL password associated with above user.' => 'Mot de passe MySQL associé au nom d\'utilisateur.',
   'MySQLi extension for PHP' => 'Extension MySQLi pour PHP',
   'Mystery Man' => 'L\'homme mystérieux',
-  'NO FAQs found' => 'AUCUNE FAQ trouvée',
+  'NO FAQs found' => 'Aucune FAQ trouvée',
   'Name' => 'Nom',
   'Name Expansion' => 'Extension du Nom',
   'Name Formatting' => 'Format du nom',
